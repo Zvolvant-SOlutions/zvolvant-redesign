@@ -1,9 +1,9 @@
 :root{
-  /* Zvolvant brand: teal + gold on slate */
-  --teal:#0e7c7b; --teal-deep:#0b5e5d; --teal-bright:#17a3a0;
-  --gold:#d4a537; --gold-soft:#e7c76b;
-  --slate:#0b2027; --slate2:#102e37; --ink:#13303a; --body:#44606a; --muted:#7b94a0;
-  --line:#e2eaec; --bg:#f5f8f8; --card:#fff; --radius:16px; --maxw:1140px;
+  /* Zvolvant brand (from logo): deep navy #1b2f4a + cyan-blue #3fa6c4 */
+  --teal:#2b7d99; --teal-deep:#1f6a84; --teal-bright:#3fa6c4;
+  --gold:#3fa6c4; --gold-soft:#9bd0df;
+  --slate:#1b2f4a; --slate2:#24405f; --ink:#1b2f4a; --body:#48607a; --muted:#7d93a6;
+  --line:#e3e9ef; --bg:#f4f7fa; --card:#fff; --radius:16px; --maxw:1140px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -30,7 +30,7 @@ section{scroll-margin-top:96px}
 .nav-cta:hover{background:var(--teal-deep)}
 
 /* Hero */
-.hero{position:relative;overflow:hidden;background:linear-gradient(160deg,#0b2027 0%,#0e3b3c 60%,#0e7c7b 140%);color:#fff;padding:84px 28px 92px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(160deg,#16283f 0%,#1f3a57 58%,#2b7d99 150%);color:#fff;padding:84px 28px 92px}
 .hero-inner{max-width:var(--maxw);margin:0 auto;position:relative;z-index:2}
 .chip-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
 .chip{font-size:12px;font-weight:700;letter-spacing:.3px;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#eafaf9}
@@ -46,7 +46,7 @@ section{scroll-margin-top:96px}
 .hero-note{margin-top:6px;font-size:13.5px;color:#8fb6b7}
 .hero-note strong{color:var(--gold-soft)}
 .hero-glow{position:absolute;top:-140px;right:-120px;width:560px;height:560px;border-radius:50%;
-  background:radial-gradient(circle,rgba(212,165,55,.28),transparent 62%);filter:blur(30px);z-index:1}
+  background:radial-gradient(circle,rgba(63,166,196,.34),transparent 62%);filter:blur(30px);z-index:1}
 
 /* Credentials bar */
 .creds{background:var(--slate2);color:#dfeaec;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 40px;padding:16px 24px}
@@ -74,7 +74,7 @@ section{scroll-margin-top:96px}
 .cap-cta a{color:var(--gold-soft);font-weight:700;font-size:14px}
 
 /* Band / past performance */
-.band{background:linear-gradient(160deg,#0b2027,#103033);color:#fff;padding:84px 28px}
+.band{background:linear-gradient(160deg,#16283f,#1f3a57);color:#fff;padding:84px 28px}
 .band-inner{max-width:var(--maxw);margin:0 auto}
 .band-inner h2{font-size:clamp(26px,3.6vw,40px);font-weight:800;margin:12px 0 30px}
 .pp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -87,7 +87,7 @@ section{scroll-margin-top:96px}
 /* Why */
 .why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .why{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
-.why-ic{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--teal);background:#e6f4f3;margin-bottom:12px}
+.why-ic{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--teal);background:#e4f1f6;margin-bottom:12px}
 .why b{font-size:17px;color:var(--ink)}
 .why p{color:var(--body);font-size:14.5px;margin-top:6px}
 
