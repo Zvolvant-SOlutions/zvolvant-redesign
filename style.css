@@ -54,6 +54,14 @@ section{scroll-margin-top:96px}
 .cred .k{font-weight:800;color:var(--gold-soft);letter-spacing:.08em;font-size:11px;text-transform:uppercase}
 .cred .v{font-family:ui-monospace,"SF Mono",Menlo,monospace;color:#fff;letter-spacing:.4px}
 
+/* Clients / trusted-by badges */
+.clients{max-width:var(--maxw);margin:0 auto;padding:44px 28px 4px;text-align:center}
+.clients-label{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:22px}
+.clients-row{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:30px 56px}
+.clients-row img{width:auto;opacity:.92}
+.clients-row .seal{height:66px}
+.clients-row .wordmark{height:42px}
+
 /* Sections */
 .section{max-width:var(--maxw);margin:0 auto;padding:84px 28px}
 .section-head{max-width:720px;margin-bottom:40px}
